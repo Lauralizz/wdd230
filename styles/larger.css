@@ -1,2 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@media (max-width: 640px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin-bottom: 10px;
+    }
 
+    main {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+    }
+    h1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #card1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #card2 {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}
