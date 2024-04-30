@@ -89,6 +89,11 @@ footer {
     background-color: #37a3d2ff;
     padding: 5px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#lastModified {
+    margin-top: 0;
 }
