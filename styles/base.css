@@ -5,7 +5,7 @@ body {
 }
 
 #profile {
-    color: white;
+    color: black;
     background-color: #37a3d2ff;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #474847ff;
     text-align: center;
     padding: 1rem;
     display: block;
@@ -48,6 +48,7 @@ nav ul {
 nav a:hover {
     border: 1px solid white;
     background-color: #474847ff;
+    color: #c3b299ff;
 }
 
 
