@@ -1,12 +1,4 @@
 @media (max-width: 640px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    nav ul li {
-        margin-bottom: 10px;
-    }
 
     main {
         display: grid;
@@ -25,5 +17,18 @@
     #card2 {
         grid-row: 3/4;
         grid-column: 1/2;
+    }
+    .navigation {
+        display: none;
+    }
+
+    .navigation.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4rem; 
+        right: 1rem; 
+        background-color: #c3b299ff;
+        z-index: 1000; 
     }
 }
