@@ -1,0 +1,148 @@
+* {
+    text-align: center;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #F7E08D;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+p {
+    font-family: "Poiret One", sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    display: block;
+}
+
+ul {
+    padding: 0 0 0 0;
+    margin: 0 0;
+}
+
+
+nav a:hover {
+    border: 1px solid white;
+    background-color: #474847ff;
+    color: #F7E08D;
+}
+
+/*hero section*/
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding-top: 30px;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    background-color: rgba(239, 143, 87, 0.7);;
+    padding: 10px;
+}
+
+#hero-msg h4 {
+    color: white;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+.join {
+    outline: none;
+    background-color: #F7E08D;
+}
+
+.join:hover {
+    cursor: pointer;
+    background-color: #474847ff;
+    color: #F7E08D;
+}
+
+footer {
+    background-color: #F7E08D;
+    padding: 5px;
+}
+
+#news {
+    padding: 30px;
+}
+
+#spotlights {
+    background-color: rgba(40, 175, 176, 0.5);;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #F7E08D;
+}
+
+#billsButton, #epicLootButton, #marketButton {
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    border: 1px solid white;
+    background-color: #474847ff;
+    color: #F7E08D;
+}
+
+/* small view navigation */
+
+#menu::before {
+    content: "\2630";
+}
+
+#menu {
+    font: 20px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+li.current-menu-item a {
+    background-color: #A19788;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+    display: none;
+    list-style-type: none;
+}
+
+.navigation.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem; 
+    right: 1rem; 
+    background-color: #F7E08D;
+    z-index: 1000; 
+}

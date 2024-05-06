@@ -1,0 +1,54 @@
+@media (min-width: 640px) {
+    
+    header img {
+        min-width: 1000px;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+    #news {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #spotlights {
+        display: grid;
+        padding: 40px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: auto auto;
+        
+    }
+
+    #bills {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #market {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #epicLoot {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+
+
+}
