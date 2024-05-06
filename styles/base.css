@@ -6,7 +6,7 @@ body {
 
 #profile {
     color: black;
-    background-color: #37a3d2ff;
+    background-color: #72A1E5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,12 +80,12 @@ h1 {
 }
 
 h2 {
-    background-color: #37a3d2ff;
+    background-color: #72A1E5;
     margin-top: 0;
 }
 
 footer {
-    background-color: #37a3d2ff;
+    background-color: #72A1E5;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -98,24 +98,62 @@ footer {
 }
 
 /* small view navigation */
+
 #menu::before {
-    content: "☰";
+    content: "\2630";
 }
 
 #menu {
-    font-size: 1.5rem;
-    border: 0;
+    font: 20px;
     background: none;
-    color: #000;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
 }
 
-#menu::before {
-    content: "☰";
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+li.current-menu-item a {
+    background-color: #A19788;
 }
 
 #menu.open::before {
     content: "X";
+}
+
+ul.menuLinks {
+    display: none;
+    list-style-type: none;
+}
+
+ul.open.menuLinks {
+    display: block;
+}
+
+@media (min-width: 640px) {
+    #menu {
+        display: none;
+    }
+}
+
+/*dark mode stuff*/
+
+#mode img {
+    width: 20px;
+}
+
+#mode {
+    font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }

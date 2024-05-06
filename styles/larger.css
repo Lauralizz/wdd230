@@ -31,4 +31,10 @@
         background-color: #c3b299ff;
         z-index: 1000; 
     }
+
+
+    ul.menuLinks, ul.menuLinks.open {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
