@@ -10,16 +10,16 @@ hamburgerElement.addEventListener('click', () => {
 
 const modeButton = document.querySelector('#mode');
 const page = document.querySelector('html');
-//const dark = document.querySelector('#darkBtn');
-//const light = document.querySelector('#lightBtn');
+const dark = document.querySelector('#darkBtn');
+const light = document.querySelector('#lightBtn');
 
 modeButton.addEventListener('click', () => {
-    if (modeButton.textContent.includes('dark')) {
+    if (modeButton.textContent.includes('◐')) {
         page.style.background = '#474847';
-        modeButton.textContent = 'light';
+        modeButton.textContent = '◑';
     } else {
         page.style.background = 'white';
         page.style.color = 'black'
-        modeButton.textContent = 'dark';
+        modeButton.textContent = '◐';
     }
 })
