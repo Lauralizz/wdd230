@@ -21,6 +21,12 @@ nav a {
     padding-right: 50px;
 }
 
+img {
+    width: 400px;
+    height: 600px;
+    animation: fade 15s;
+}
+
 nav {
     background-color: rgba(238, 46, 49, 0.5);
     margin: 0 auto;
@@ -113,4 +119,14 @@ button:hover {
 a {
     text-decoration: none;
     color: black;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
