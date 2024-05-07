@@ -1,0 +1,112 @@
+/*activities css*/
+* {
+    text-align: center;
+    font-family: "Syncopate", sans-serif;
+    z-index: 0;
+}
+
+header {
+    padding-top: 5px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    font-size: xx-large;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav {
+    background-color: rgba(238, 46, 49, 0.5);
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#menu {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Syncopate", sans-serif;
+}
+
+
+ul {
+    padding: 0 0 0 0;
+    margin: 0 0;
+}
+
+
+nav a:hover {
+    border: 1px solid white;
+    background-color: #f04245;
+    border: 0px;
+}
+
+body {
+    background-color: #679289;
+    z-index: 0;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #1d7874;
+    max-width: 1000px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: rgba(29, 120, 116, 0.9);
+    padding: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-column: 2/3;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f04245;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    border: 1px solid white;
+    background-color: rgba(238, 46, 49, .9);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
