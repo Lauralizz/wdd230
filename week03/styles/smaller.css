@@ -18,6 +18,10 @@
         z-index: 999;
     }
 
+    #menu::before {
+        content: "\2630";
+    }
+    
     .navigation a:hover {
         background-color: white;
         color: #f04245;

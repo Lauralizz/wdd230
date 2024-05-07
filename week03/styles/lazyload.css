@@ -36,6 +36,10 @@ nav ul {
     justify-content: space-evenly;
 }
 
+#menu::before {
+    content: "\2630";
+}
+
 #menu {
     display: none;
 }
