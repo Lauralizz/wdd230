@@ -1,9 +1,3 @@
-body {
-    font-family: "Caveat", sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 #profile {
     color: black;
     background-color: #72A1E5;
@@ -22,8 +16,34 @@ header span {
 nav {
     background-color: #c3b299ff;
     margin: 0 auto;
-    max-width: 800px;
-    
+    max-width: 960px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero p {
+    font-size: small;
+}
+
+.herolabel {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: xx-large;
+    border: 1px solid rgba(0,0,0,.75);
+    background-color: aliceblue;
+}
+
+ul {
+    padding: 0 0 0 0;
+    margin: 0 0;
 }
 
 nav a {
@@ -34,23 +54,11 @@ nav a {
     display: block;
 }
 
-ul {
-    padding: 0 0 0 0;
-    margin: 0 0;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
-
 nav a:hover {
     border: 1px solid white;
     background-color: #474847ff;
     color: #c3b299ff;
 }
-
 
 main {
     margin-bottom: 2%;
@@ -97,7 +105,43 @@ footer {
     margin-top: 0;
 }
 
-/* small view navigation */
+body {
+    font-family: "Caveat", sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 100%;
+}
+h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#card1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#card2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem; 
+    right: 1rem; 
+    background-color: #c3b299ff;
+    z-index: 1000; 
+}
 
 #menu::before {
     content: "\2630";
@@ -142,3 +186,4 @@ li.current-menu-item a {
     right: 10px;
     cursor: pointer;
 }
+
