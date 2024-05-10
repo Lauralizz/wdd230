@@ -156,3 +156,21 @@ li.current-menu-item a {
     background-color: #F7E08D;
     z-index: 1000; 
 }
+
+/*Images on discover page*/
+
+.flip-card {
+    position: relative;
+    z-index: 0;
+    border: 1px solid black;
+}
+
+.label {
+    z-index: 999;
+    position: fixed;
+    top: 5px;
+    left: 15px;
+    background-color: aliceblue;
+    padding: 0 5px;
+    font-size: small;
+}

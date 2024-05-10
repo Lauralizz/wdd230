@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centerville Chamber of Commerce Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="300">
+    <meta name="description" content="Centerville Chamber of Commerce Site">
+    <meta name="author" content="Laura Norman">
+    <meta property="og:title" content="Laura Norman WDD 230 Chamber of Commerce Site Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lauralizz.github.io/wdd230/images/hometown.jpg">
+    <meta property="og:url" content="https://lauralizz.github.io/wdd230">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="chamberfavicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/centervilleArt.png" alt="Centerville" max-width="1000px" height="100px">
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li class="current-menu-item"><a href="index.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="imgRow">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/birdWalk.webp" loading="lazy" alt="Bird Walk in Centerville">
+                        <div class="label">
+                            <p>World Migratory Bird Walk</p>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Saturday, May 11, 8:00 am-9:30 am</p>
+                        <p>Grant Park, Kennard Nature Nook 6588 McEwen Rd., Centerville, OH, United States</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/5krun.webp" loading="lazy" alt="5K Run/Walk">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>7 AM sharp, race kicks off at 7:30 AM on July 4th</p>
+                        <p>Centerville High School Stadium on East Franklin Street</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/fireworks.webp" loading="lazy" alt="4th of July Fireworks">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>July 3rd: Gates open at 6pm and the fireworks start at 10pm</p>
+                        <p>Centerville High School Stadium on East Franklin Street</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/parade.webp" loading="lazy" alt="Bird Walk in Centerville">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>July 3rd the night BEFORE the Festival</p>
+                        <p>Centerville High School Stadium, 500 E. Franklin Street</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/autoShow.webp" loading="lazy" alt="American Festival Auto Show">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>July 4th Time TBD</p>
+                        <p>Starts at Centerville High School Stadium on East Franklin Street</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/natureCrafts.webp" loading="lazy" alt="Nature Crafts">
+                        <div class="label">
+                            <p>Crafts with Nature</p>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Tuesday, May 14, 10:30 am-11:30 am</p>
+                        <p>Schoolhouse Park 1875 Nutt Rd., Dayton, OH, United States</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="currentDate">Laura Norman | contact@gmail.com | WDD 230 &copy;</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
