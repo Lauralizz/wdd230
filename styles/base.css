@@ -46,6 +46,11 @@ ul {
     margin: 0 0;
 }
 
+a {
+    list-style-type: none;
+    color: black;
+}
+
 nav a {
     text-decoration: none;
     color: #474847ff;
@@ -57,7 +62,8 @@ nav a {
 nav a:hover {
     border: 1px solid white;
     background-color: #474847ff;
-    color: #c3b299ff;
+    color: black;
+    list-style-type: none;
 }
 
 main {
@@ -141,6 +147,7 @@ h1 {
     right: 1rem; 
     background-color: #c3b299ff;
     z-index: 1000; 
+    list-style-type: none;
 }
 
 #menu::before {
@@ -162,15 +169,12 @@ li.current-menu-item a {
     background-color: #A19788;
 }
 
-#menu.open::before {
-    content: "X";
+li.current-menu-item a:hover {
+    background-color: #474847ff;
 }
 
-
-@media (min-width: 640px) {
-    #menu {
-        display: none;
-    }
+#menu.open::before {
+    content: "X";
 }
 
 iframe {
