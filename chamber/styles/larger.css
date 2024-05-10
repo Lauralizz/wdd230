@@ -114,4 +114,8 @@
     #infoRow {
         margin: 10px 10px 10px 0px;
     }
+
+    .numberVisits {
+        grid-column: 1/3;
+    }
 }
