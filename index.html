@@ -23,7 +23,7 @@
     <body>
         <header>
             <div id="profile">
-                <img src="images/laura-profile.webp" alt="Laura Norman" width="80" height="94">
+                <img loading="lazy" src="images/laura-profile.webp" alt="Laura Norman" width="80" height="94">
                 <span>Laura Norman</span>
             </div>
             <div id="mode">
@@ -52,13 +52,13 @@
             <section id="card2">
                 <h2>Information</h2>
                 <p>Weather</p>
-                <p>Number of Visits</p>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </section>
             <div class="hero">
                 <picture>
-                    <source srcset="images/hero-small.webp" media="(max-width: 500px)">
-                    <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
-                    <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
+                    <source loading="lazy" srcset="images/hero-small.webp" media="(max-width: 500px)">
+                    <source loading="lazy" srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img loading="lazy" src="images/hero-large.webp" alt="table setting" width="1500" height="750">
                 </picture>
                 <div class="herolabel">
                     <p>Paris France Temple</p>
@@ -72,5 +72,6 @@
         </footer>
         <script src="scripts/getDates.js"></script>
         <script src="scripts/hamburger.js"></script>
+        <script src="scripts/visits.js"></script>
     </body>
 </html>
