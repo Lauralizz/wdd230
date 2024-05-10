@@ -159,10 +159,12 @@ li.current-menu-item a {
 
 /*Images on discover page*/
 
+
 .flip-card {
     position: relative;
     z-index: 0;
     border: 1px solid black;
+    margin: 10px 0px;
 }
 
 .label {
@@ -171,6 +173,32 @@ li.current-menu-item a {
     top: 5px;
     left: 15px;
     background-color: aliceblue;
-    padding: 0 5px;
+    padding: 0px 5px;
     font-size: small;
+}
+
+#infoRow {
+    margin: 10px 10px 10px 0px;
+}
+
+#attractions {
+    background-color: rgba(239, 143, 87, 0.7);
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+#attractions p {
+    padding: 0px 30px;
+}
+
+#demographics {
+    background-color: rgba(239, 143, 87, 0.7);
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+#statData {
+    background-color: rgba(239, 143, 87, 0.7);
+    padding: 10px 0px;
+    margin-bottom: 30px;
 }
