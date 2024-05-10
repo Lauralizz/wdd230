@@ -1,6 +1,12 @@
 * {
     text-align: center;
 }
+
+header img {
+    width: 1000px; 
+    height: 100px;
+}
+
 body {
     font-family: "Oswald", sans-serif;
     max-width: 1000px;
