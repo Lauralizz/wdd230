@@ -57,6 +57,7 @@
         perspective: 1000px;
         grid-column: 2/5;
         grid-row-start: 2;
+        margin: 10px 0px;
     }
       
     .flip-card-inner {
@@ -109,5 +110,8 @@
     #infoRow {
         grid-column: 1/2;
         grid-row: 1/2;
+    }
+    #infoRow {
+        margin: 10px 10px 10px 0px;
     }
 }

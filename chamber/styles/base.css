@@ -164,7 +164,6 @@ li.current-menu-item a {
     position: relative;
     z-index: 0;
     border: 1px solid black;
-    margin: 10px 0px;
 }
 
 .label {
@@ -175,10 +174,6 @@ li.current-menu-item a {
     background-color: aliceblue;
     padding: 0px 5px;
     font-size: small;
-}
-
-#infoRow {
-    margin: 10px 10px 10px 0px;
 }
 
 #attractions {
