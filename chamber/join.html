@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centerville Chamber of Commerce Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="300">
+    <meta name="description" content="Centerville Chamber of Commerce Site">
+    <meta name="author" content="Laura Norman">
+    <meta property="og:title" content="Laura Norman WDD 230 Chamber of Commerce Site Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lauralizz.github.io/wdd230/images/hometown.jpg">
+    <meta property="og:url" content="https://lauralizz.github.io/wdd230">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="chamberfavicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/centervilleArt.png" alt="Centerville">
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li class="current-menu-item"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <div id="hero">
+        <div id="hero-box">
+            <img src="images/hometown.jpg" alt="View of Centerville" width="800px">
+        </div>
+        <section id="hero-msg">
+            <h1>Join Centerville's Chamber of Commerce!</h1>
+            <button class="join">Join</button>
+        </section>
+    </div>
+    <main>
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thankyou.html" class="wf1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Website <input type="url" name="url" placeholder="http://"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label><input type="radio" name="audience" value="beginner"> Beginner</label>
+                <label><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                <label><input type="radio" name="audience" value="advanced"> Advanced</label>
+
+                <div>Software Needed</div>
+                <label><input type="checkbox" name="code" value="yes"> Coding</label>
+                <label><input type="checkbox" name="client" value="yes"> FTP Client</label>
+                <label><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+                <label><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Funding</legend>
+                <label>Anticipated Completion Date <input type="date" name="completeDate"></label>
+                <label>Course Subject
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                    <option value="software">Software Developement</option>
+                    <option value="software">Software Developement</option>
+                    <option value="software">Software Developement</option>
+                    <option value="software">Software Developement</option>
+                    <option value="software">Software Developement</option>
+                    <option value="software">Software Developement</option>
+                    </select>
+                </label>
+                <label>How Many Authors <input type="number" name="authors"></label>
+            </fieldset>
+            <input type="submit" value="Apply for Membership">
+        </form>
+    </main>
+    <footer>
+        <p id="currentDate">Laura Norman | contact@gmail.com | WDD 230 &copy;</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
