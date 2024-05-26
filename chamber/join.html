@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Centerville Chamber of Commerce Site</title>
+    <title>Centerville Chamber of Commerce Site Join Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Refresh" content="300">
-    <meta name="description" content="Centerville Chamber of Commerce Site">
+    <meta name="description" content="Centerville Chamber of Commerce Membership Application">
     <meta name="author" content="Laura Norman">
-    <meta property="og:title" content="Laura Norman WDD 230 Chamber of Commerce Site Homepage">
+    <meta property="og:title" content="Laura Norman WDD 230 Chamber of Commerce Site Join Page">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://lauralizz.github.io/wdd230/images/hometown.jpg">
     <meta property="og:url" content="https://lauralizz.github.io/wdd230">
@@ -26,63 +26,38 @@
     <nav>
         <button id="menu"></button>
         <ul class="navigation">
-            <li class="current-menu-item"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li class="current-menu-item"><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <div id="hero">
-        <div id="hero-box">
-            <img src="images/hometown.jpg" alt="View of Centerville" width="800px">
-        </div>
-        <section id="hero-msg">
-            <h1>Join Centerville's Chamber of Commerce!</h1>
-            <button class="join">Join</button>
-        </section>
-    </div>
     <main>
-        <h1>Course Proposal Application</h1>
+        <h1>Chamber of Commerce Membership Application</h1>
         <form method="get" action="thankyou.html" class="wf1">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label>First Name* <input type="text" name="fname" required></label>
-                <label>Last Name* <input type="text" name="lname" required></label>
-                <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
                 <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label>Website <input type="url" name="url" placeholder="http://"></label>
             </fieldset>
             <fieldset>
-                <legend>Course Information</legend>
-                <div>Audience</div>
-                <label><input type="radio" name="audience" value="beginner"> Beginner</label>
-                <label><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-                <label><input type="radio" name="audience" value="advanced"> Advanced</label>
-
-                <div>Software Needed</div>
-                <label><input type="checkbox" name="code" value="yes"> Coding</label>
-                <label><input type="checkbox" name="client" value="yes"> FTP Client</label>
-                <label><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
-                <label><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                <legend>Business/Organization Information</legend>
+                <label>Business/Organization's Name* <input type="text" name="business" id="business" required></label>
+                <label>Applicant's Title/Position <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"></label>
+                <label>Business/Organization's Description <textarea id="description" name="description" rows="4" cols="50"></textarea></label>
             </fieldset>
-            
             <fieldset>
-                <legend>Funding</legend>
-                <label>Anticipated Completion Date <input type="date" name="completeDate"></label>
-                <label>Course Subject
-                    <select name="subject">
-                        <option value="">Please Select &#9662;</option>
-                    <option value="software">Software Developement</option>
-                    <option value="software">Software Developement</option>
-                    <option value="software">Software Developement</option>
-                    <option value="software">Software Developement</option>
-                    <option value="software">Software Developement</option>
-                    <option value="software">Software Developement</option>
-                    </select>
+                <legend>Membership Type</legend>
+                <label><input type="radio" name="audience" value="beginner"> Non Profit Membership (no fee)</label>
+                <label><input type="radio" name="audience" value="intermediate"> Bronze Membership</label>
+                <label><input type="radio" name="audience" value="advanced"> Silver Membership</label>
+                <label><input type="radio" name="audience" value="advanced"> Gold Membership</label>
                 </label>
-                <label>How Many Authors <input type="number" name="authors"></label>
             </fieldset>
-            <input type="submit" value="Apply for Membership">
+            <input type="hidden" id="timestamp" name="timestamp">
+            <input type="submit" id="button" value="Apply for Membership">
         </form>
     </main>
     <footer>
