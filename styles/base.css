@@ -1,3 +1,7 @@
+:root {
+    font-family: "Caveat", sans-serif;
+}
+
 #profile {
     color: black;
     background-color: #72A1E5;
@@ -112,7 +116,6 @@ footer {
 }
 
 body {
-    font-family: "Caveat", sans-serif;
     max-width: 960px;
     margin: 0 auto;
 }
