@@ -73,12 +73,20 @@ nav a:hover {
 
 #button {
     outline: none;
+    color: #474847ff;
     background-color: #F7E08D;
     display: block;
     margin: auto;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #button:hover {
+    text-decoration: none;
     cursor: pointer;
     background-color: #474847ff;
     color: #F7E08D;
