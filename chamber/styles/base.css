@@ -245,3 +245,8 @@ input[type="radio"] {
 legend {
     font-size: larger;
 }
+
+#thankyou {
+    padding: 20px 200px;
+    padding-bottom: 400px;
+}
