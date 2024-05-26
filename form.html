@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Laura Norman - WDD 230 - Web Frontend Development</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Refresh" content="300">
+        <meta name="description" content="Laura Norman - WDD 230 - Web Frontend Development - Course Assignment Portal">
+        <meta name="author" content="Laura Norman">
+        <meta property="og:title" content="Laura Norman WDD 230 Course Form">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://lauralizz.github.io/wdd230/images/hometown.jpg">
+        <meta property="og:url" content="https://lauralizz.github.io/wdd230">
+        <meta property="og:description" content="Laura Norman WDD 230 Course Form">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div id="profile">
+                <img loading="lazy" src="images/laura-profile.webp" alt="Laura Norman" width="80" height="94">
+                <span>Laura Norman</span>
+            </div>
+            <div id="mode">
+                ◐
+            </div>
+        </header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li class="current-menu-item"><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Course Proposal Application</h1>
+            <form method="get" action="thanks.html" class="wf1">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label>Website <input type="url" name="url" placeholder="http://"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Course Information</legend>
+                    <div>Audience</div>
+                    <label><input type="radio" name="audience" value="beginner"> Beginner</label>
+                    <label><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                    <label><input type="radio" name="audience" value="advanced"> Advanced</label>
+
+                    <div>Software Needed</div>
+                    <label><input type="checkbox" name="code" value="yes"> Coding</label>
+                    <label><input type="checkbox" name="client" value="yes"> FTP Client</label>
+                    <label><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+                    <label><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Funding</legend>
+                    <label>Anticipated Completion Date <input type="date" name="completeDate"></label>
+                    <label>Course Subject
+                        <select name="subject">
+                            <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Developement</option>
+                        <option value="software">Software Developement</option>
+                        <option value="software">Software Developement</option>
+                        <option value="software">Software Developement</option>
+                        <option value="software">Software Developement</option>
+                        <option value="software">Software Developement</option>
+                        </select>
+                    </label>
+                    <label>How Many Authors <input type="number" name="authors"></label>
+                </fieldset>
+                <input type="submit" value="Propose my Course">
+            </form>
+        </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49167.15512730202!2d-84.1593818236108!3d39.62839277793022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884058d703aa635b%3A0xb305612d552c8c68!2sCenterville%2C%20OH!5e0!3m2!1sen!2sus!4v1715304586574!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer>
+            <p id="currentDate">Laura Norman - Ohio &copy;</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/visits.js"></script>
+        <script src="scripts/formvalidation.js"></script>
+    </body>
+</html>
