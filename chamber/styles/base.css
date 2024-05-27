@@ -71,7 +71,7 @@ nav a:hover {
     width: 100%;
 }
 
-#button {
+.button {
     outline: none;
     color: #474847ff;
     background-color: #F7E08D;
@@ -85,7 +85,7 @@ a {
     color: inherit;
 }
 
-#button:hover {
+.button:hover {
     text-decoration: none;
     cursor: pointer;
     background-color: #474847ff;
