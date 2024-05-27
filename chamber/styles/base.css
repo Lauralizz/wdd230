@@ -266,12 +266,12 @@ legend {
     padding: 20px;
 }
 
-#mem {
+.mem {
     padding: 10px;
     margin-top: 40px;
     background-color: rgba(40, 175, 176, 0.5);
 }
 
-#memTitle {
+.memTitle {
     font-size: larger;
 }
