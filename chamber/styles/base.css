@@ -112,7 +112,7 @@ h2 {
 }
 
 #spotlights {
-    background-color: rgba(40, 175, 176, 0.5);;
+    background-color: rgba(40, 175, 176, 0.5);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -257,4 +257,21 @@ legend {
 #thankyou {
     padding: 20px 200px;
     padding-bottom: 400px;
+}
+
+/*Membership Level*/
+
+#membershipInfo {
+    margin: 20px;
+    padding: 20px;
+}
+
+#mem {
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgba(40, 175, 176, 0.5);
+}
+
+#memTitle {
+    font-size: larger;
 }

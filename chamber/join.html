@@ -33,32 +33,54 @@
         </ul>
     </nav>
     <main>
-        <h1>Chamber of Commerce Membership Application</h1>
-        <form method="get" action="thankyou.html" class="wf1">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label>First Name* <input type="text" name="fname" id="fname" required></label>
-                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
-                <label>Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
-                <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Business/Organization Information</legend>
-                <label>Business/Organization's Name* <input type="text" name="business" id="business" required></label>
-                <label>Applicant's Title/Position <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"></label>
-                <label>Business/Organization's Description <textarea id="description" name="description" rows="4" cols="50"></textarea></label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Type</legend>
-                <label><input type="radio" name="audience" value="beginner"> Non Profit Membership (no fee)</label>
-                <label><input type="radio" name="audience" value="intermediate"> Bronze Membership</label>
-                <label><input type="radio" name="audience" value="advanced"> Silver Membership</label>
-                <label><input type="radio" name="audience" value="advanced"> Gold Membership</label>
-                </label>
-            </fieldset>
-            <input type="hidden" id="timestamp" name="timestamp">
-            <input type="submit" id="button" value="Apply for Membership">
-        </form>
+        <h1>Chamber of Commerce Membership</h1>
+        <div id="formcolumns">
+            <section id="membershipInfo">
+                <h2>Membership Levels</h2>
+                <section id="mem">
+                    <p id="memTitle">Non Profit Membership</p>
+                    <p>This is a free membership we offer to non profit organizations in the area. Because it is free, it does not include any benefits except for access to special events.</p>
+                </section>
+                <section id="mem">
+                    <p id="memTitle">Bronze Membership</p>
+                    <p>This is a $50 membership we offer that includes access to special events and training. Training takes place 4 times a year. It is a weekend event with seminars and classes you can choose to sign up for.</p>
+                </section>
+                <section id="mem">
+                    <p id="memTitle">Silver Membership</p>
+                    <p>This is a $100 membership we offer that includes access to special events, training (see description above), and advertising. Details of advertisement will be given upon completion of application.</p>
+                </section>
+                <section id="mem">
+                    <p id="memTitle">Gold Membership</p>
+                    <p>This is a $150 membership we offer that includes access to special events, training (see description above), advertising, and event discounts. Details of advertisement and discounts will be given upon completion of application.</p>
+                </section>
+            </section>
+            <form method="get" action="thankyou.html" class="wf1">
+                <h2>Membership Application</h2>
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                    <label>Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business/Organization Information</legend>
+                    <label>Business/Organization's Name* <input type="text" name="business" id="business" required></label>
+                    <label>Applicant's Title/Position <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}"></label>
+                    <label>Business/Organization's Description <textarea id="description" name="description" rows="4" cols="50"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Type</legend>
+                    <label><input type="radio" name="audience" value="beginner"> Non Profit Membership (no fee)</label>
+                    <label><input type="radio" name="audience" value="intermediate"> Bronze Membership</label>
+                    <label><input type="radio" name="audience" value="advanced"> Silver Membership</label>
+                    <label><input type="radio" name="audience" value="advanced"> Gold Membership</label>
+                    </label>
+                </fieldset>
+                <input type="hidden" id="timestamp" name="timestamp">
+                <input type="submit" id="button" value="Apply for Membership">
+            </form>
+        </div>
     </main>
     <footer>
         <p id="currentDate">Laura Norman | contact@gmail.com | WDD 230 &copy;</p>
