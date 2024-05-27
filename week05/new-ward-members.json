@@ -1,0 +1,23 @@
+{
+    "familyName": "Normans",
+    "moveinDate": "12/23/2023",
+    "familyMembers": 3,
+    "bishopricVisit": "no",
+    "familyInfo": [
+        {
+            "name": "John",
+            "gender": "male",
+            "birthdate": "02/03/2000"
+        },
+        {
+            "name": "Linda",
+            "gender": "female",
+            "birthdate": "05/23/1994"
+        },
+        {
+            "name": "Teddy",
+            "gender": "male",
+            "birthdate": "04/16/2022"
+        }
+    ]
+}
