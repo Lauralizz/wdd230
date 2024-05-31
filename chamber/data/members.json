@@ -14,47 +14,47 @@
             "phoneNumber": "937-436-7305",
             "url": "https://www.epiclootgames.com",
             "image": "images/epicLoot.png",
-            "memLevel": "Gold"
+            "memLevel": "Gold Membership"
         },
         {
             "name": "Centerville Farmer's Market",
             "address": "221 N. Main Street Centerville Ohio, 45459",
             "phoneNumber": "(937) 428-4765",
             "url": "https://centervillefarmersmarket.com",
-            "image": "",
-            "memLevel": ""
+            "image": "images/farmersMarket.jpg",
+            "memLevel": "Silver Membership"
         },
         {
-            "name": "",
-            "address": "",
-            "phoneNumber": "",
-            "url": "",
-            "image": "",
-            "memLevel": ""
+            "name": "Burgundy Chic Boutique",
+            "address": "28 S. Main Street, Centerville, Ohio",
+            "phoneNumber": "937-241-4692",
+            "url": "https://www.burgundychicboutique.com",
+            "image": "images/chicBoutique.webp",
+            "memLevel": "Bronze Membership"
         },
         {
-            "name": "",
-            "address": "",
-            "phoneNumber": "",
-            "url": "",
-            "image": "",
-            "memLevel": ""
+            "name": "Hannah's Treasure Chest",
+            "address": "124 Westpark Rd. Centerville, OH 45459",
+            "phoneNumber": "+1 937.438.5039",
+            "url": "https://www.hannahstreasure.org",
+            "image": "images/hannahsLogo.png",
+            "memLevel": "Non Profit Membership"
         },
         {
-            "name": "",
-            "address": "",
-            "phoneNumber": "",
-            "url": "",
-            "image": "",
-            "memLevel": ""
+            "name": "The Foodbank",
+            "address": "56 Armor Place Dayton, OH",
+            "phoneNumber": "(937) 461-0265",
+            "url": "https://thefoodbankdayton.org",
+            "image": "images/foodbank.svg",
+            "memLevel": "Non Profit Membership"
         },
         {
-            "name": "",
-            "address": "",
-            "phoneNumber": "",
-            "url": "",
-            "image": "",
-            "memLevel": ""
+            "name": "T4",
+            "address": "9146 Dayton-Lebanon Pike Centerville OH 45458",
+            "phoneNumber": "937.7239941",
+            "url": "https://www.t4ohio.com/boba-puzzle",
+            "image": "images/t4.jpg",
+            "memLevel": "Gold Membership"
         }
     ]
 }
