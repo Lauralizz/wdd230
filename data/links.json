@@ -1,0 +1,98 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"HG Layout"
+                },
+                {
+                    "url":"week01/media-query.html",
+                    "title":"mQueries"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url":"week02/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"https://codepen.io/Lauralizz/pen/GRLbqwB",
+                    "title":"Hamburger"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"BOM"
+                }
+            ]
+        },
+    
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url":"week03/images/landscape.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazyload"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"Hero Image"
+                },
+                {
+                    "url":"https://lauralizz.github.io/wdd230/week02/bom.html",
+                    "title":"BOM2"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url":"https://codepen.io/Lauralizz/pen/NWVrmXP?editors=0100",
+                    "title":"Pseudo-Class Fun"
+                },
+                {
+                    "url":"images/combinators.png",
+                    "title":"Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"Table Build"
+                },
+                {
+                    "url":"week04/form-start/Form-start/index.html",
+                    "title":"Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url":"https://codepen.io/Laura-Tyre/pen/xxNRKym",
+                    "title":"Pseudo-Elements"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"JSON, New Ward members"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"Propehts"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        }
+    ]
+}
