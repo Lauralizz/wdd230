@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Bill's Donut Shop",
+            "address": "268 N. Main St. in Centerville",
+            "phoneNumber": "937-433-0002",
+            "url": "https://billsdonutsohio.com",
+            "image": "images/bills.jpg",
+            "memLevel": "Silver Membership"
+        },
+        {
+            "name": "Epic Loot",
+            "address": "9130 Dayton-Lebanon Pike Centerville OH 45458",
+            "phoneNumber": "937-436-7305",
+            "url": "https://www.epiclootgames.com",
+            "image": "images/epicLoot.png",
+            "memLevel": "Gold"
+        },
+        {
+            "name": "Centerville Farmer's Market",
+            "address": "221 N. Main Street Centerville Ohio, 45459",
+            "phoneNumber": "(937) 428-4765",
+            "url": "https://centervillefarmersmarket.com",
+            "image": "",
+            "memLevel": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phoneNumber": "",
+            "url": "",
+            "image": "",
+            "memLevel": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phoneNumber": "",
+            "url": "",
+            "image": "",
+            "memLevel": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phoneNumber": "",
+            "url": "",
+            "image": "",
+            "memLevel": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phoneNumber": "",
+            "url": "",
+            "image": "",
+            "memLevel": ""
+        }
+    ]
+}
