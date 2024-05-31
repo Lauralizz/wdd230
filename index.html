@@ -53,9 +53,15 @@
             </section>
             <section id="card2">
                 <h2>Information</h2>
-                <p>Weather</p>
-                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-            </section>
+                <section id="card2alignment">
+                    <figure id="weather">
+                        <img id="weather-icon" src="" alt="">
+                        <span id="current-temp"></span>
+                        <figcaption></figcaption>
+                    </figure>
+                    <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+                </section>
+                </section>
             <div class="hero">
                 <picture>
                     <source srcset="images/hero-small.webp" media="(max-width: 500px)">
@@ -75,5 +81,6 @@
         <script src="scripts/getDates.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/visits.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
 </html>

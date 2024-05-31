@@ -201,3 +201,36 @@ iframe {
     cursor: pointer;
 }
 
+/*Weather*/
+
+#weather-icon {
+    margin-right: 5px; /* Adjust spacing between image and temperature */
+}
+
+#current-temp {
+    margin-right: 10px; /* Adjust spacing between temperature and figcaption */
+}
+
+figcaption {
+    font-size: 0.9em; /* Adjust the size if needed */
+}
+
+#weather {
+    margin-top: 0;
+}
+
+#card2alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#card2alignment > figure, #card2alignment > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
