@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
 header img {
     max-width: 100%;
     height: auto;
