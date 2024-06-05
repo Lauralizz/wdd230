@@ -112,6 +112,16 @@ h3 {
     background-color: rgba(239, 143, 87, 0.7);
 }
 
+#weather h3{
+    width: 300px;
+    margin-top: 0;
+}
+
+#weather {
+    padding: 5px;
+    background-color: rgba(239, 143, 87, 0.2);
+}
+
 .sameBackground {
     padding: 5px;
     background-color: rgba(239, 143, 87, 0.7);

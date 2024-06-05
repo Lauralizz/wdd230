@@ -1,8 +1,5 @@
 @media (min-width: 640px) {
     
-    header img {
-        min-width: 1000px;
-    }
     nav ul {
         display: flex;
         list-style-type: none;
