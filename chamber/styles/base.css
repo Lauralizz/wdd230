@@ -356,7 +356,7 @@ legend {
 .list section h4 {
 	font-size: 1rem;
 	font-family: Roboto, Helvetica, sans-serif;
-    
+    grid-row: 2/4;
 }
 
 .list section:nth-child(even) {
