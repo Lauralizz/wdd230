@@ -3,8 +3,8 @@
 }
 
 header img {
-    width: 1000px; 
-    height: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -18,6 +18,7 @@ nav {
     margin: 0 auto;
     max-width: 1000px;
 }
+
 p {
     font-family: "Poiret One", sans-serif;
 }
@@ -35,7 +36,6 @@ ul {
     margin: 0 0;
 }
 
-
 nav a:hover {
     border: 1px solid white;
     background-color: #474847ff;
@@ -49,13 +49,13 @@ nav a:hover {
     padding-top: 30px;
 }
 
-#hero-box{
+#hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
-#hero-msg{
+#hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -67,8 +67,9 @@ nav a:hover {
     color: white;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
+    height: auto;
 }
 
 .button {
@@ -151,14 +152,13 @@ li.current-menu-item a {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 4rem; 
-    right: 1rem; 
+    top: 4rem;
+    right: 1rem;
     background-color: #F7E08D;
-    z-index: 1000; 
+    z-index: 1000;
 }
 
 /*Images on discover page*/
-
 
 .flip-card {
     position: relative;
@@ -201,8 +201,7 @@ li.current-menu-item a {
 .sidebar {
     background-color: rgb(214, 123, 191);
     color: black;
-    grid-column: 1/3;
-    margin: 10px 0px 10px 0px;
+    grid-column: 
 }
 
 .visits {

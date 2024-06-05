@@ -34,7 +34,7 @@
     </nav>
     <div id="hero">
         <div id="hero-box">
-            <img src="images/hometown.jpg" alt="View of Centerville" width="800px">
+            <img src="images/hometown.jpg" alt="View of Centerville">
         </div>
         <section id="hero-msg">
             <h1>Join Centerville's Chamber of Commerce!</h1>
@@ -43,29 +43,31 @@
     </div>
     <main>
         <div id="news">
-            <section id="weather">
-                <h3>Weather in Centerville</h3>
-                <img src="images/weather.webp" alt="Weather in Centerville" width="350px">
-            </section>
+            <figure id="weather">
+                <h3>Weather In Centerville</h3>
+                <img id="weather-icon" src="" alt="">
+                <span id="current-temp"></span>
+                <figcaption></figcaption>
+            </figure>
             <section id="events">
                 <h3>Upcoming Events</h3>
-                <img src="images/events.jpg" alt="Crurent Events in Centerville" width="350px">
+                <img src="images/events.jpg" alt="Current Events in Centerville">
             </section> 
-            </div>
+        </div>
         <h2>Business Spotlights</h2>
         <div id="spotlights">
             <div id="bills">
-                <img src="images/bills.jpg" alt="Bill's Donuts" width="180px" height="150px">
+                <img src="images/bills.jpg" alt="Bill's Donuts">
                 <button class="button"><a href="https://billsdonutsohio.com">Bill's</a></button>
                 <p>Landmark bake shop turning out donuts, cookies, pastries & coffee in an old-fashioned setting.</p>
             </div>
             <div id="epicLoot">
-                <img src="images/epicLoot.png" alt="Epic Loot" width="180px" height="150px">
+                <img src="images/epicLoot.png" alt="Epic Loot">
                 <button class="button"><a href="https://www.epiclootgames.com">Epic Loot</a></button>
                 <p>Game store</p>
             </div>
             <div id="market">
-                <img src="images/farmersMarket.jpg" alt="Centerville Farmer's Market" width="180px" height="150px">
+                <img src="images/farmersMarket.jpg" alt="Centerville Farmer's Market">
                 <button class="button"><a href="https://centervillefarmersmarket.com">Market</a></button>
                 <p>Sponsored by the City of Centerville and Centerville Washington Park District. Features high-quality products.</p>
             </div>
@@ -75,6 +77,7 @@
         <p id="currentDate">Laura Norman | contact@gmail.com | WDD 230 &copy;</p>
         <p id="lastModified"></p>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
 </body>
