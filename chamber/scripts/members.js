@@ -11,7 +11,7 @@ async function getMembersData() {
 const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
-        let businessName = document.createElement('h4');
+        let businessName = document.createElement('h2');
         let portrait = document.createElement('img');
         let businessAddress = document.createElement('p');
         let businessPhone = document.createElement('p');

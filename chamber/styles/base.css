@@ -112,7 +112,7 @@ h3 {
     background-color: rgba(239, 143, 87, 0.7);
 }
 
-h2 {
+.sameBackground {
     padding: 5px;
     background-color: rgba(239, 143, 87, 0.7);
 }
@@ -199,7 +199,7 @@ li.current-menu-item a {
 
 #statData {
     background-color: rgba(239, 143, 87, 0.7);
-    padding: 30px;
+    padding: 10px 0px;
     margin-bottom: 30px;
 }
 
@@ -294,9 +294,7 @@ legend {
     font-size: small;
 }
 
-#membersContainer h4 {
-    font-size: large;
-}
+
 
 #grid, #list {
     cursor: pointer;
@@ -325,7 +323,7 @@ legend {
 	box-shadow: 0 0 10px #333;
 }
 
-.grid h4 {
+.grid h2 {
     text-align: center;
     padding-bottom: 5px;
 }
@@ -358,7 +356,7 @@ legend {
 	display: none;
 }
 
-.list section h4 {
+.list section h2 {
 	font-size: 1rem;
 	font-family: Roboto, Helvetica, sans-serif;
     grid-row: 2/4;
