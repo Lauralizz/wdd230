@@ -367,3 +367,8 @@ legend {
 .list section:nth-child(even) {
 	background-color: #bed;
 }
+
+#directoryh2 {
+    display: inline-block;
+    margin: 20px;
+}
