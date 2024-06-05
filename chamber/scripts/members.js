@@ -15,16 +15,22 @@ const displayMembers = (members) => {
         let portrait = document.createElement('img');
         let businessAddress = document.createElement('p');
         let businessPhone = document.createElement('p');
+        let level = document.createElement('p');
+        let businessURL = document.createElement('p');
 
         businessName.textContent = `${member.name}`;
         portrait.setAttribute('src', member.image);
+        level.textContent = member.memLevel;
+        businessURL.textContent = member.url;
         businessAddress.textContent = `Address: ${member.address}`;
         businessPhone.textContent = `Phone Number: ${member.phoneNumber}`;
 
         card.appendChild(businessName);
         card.appendChild(portrait);
+        card.appendChild(level);
         card.appendChild(businessAddress);
         card.appendChild(businessPhone);
+        card.appendChild(businessURL);
 
         membersSection.appendChild(card);
     });
@@ -34,3 +40,4 @@ const displayMembers = (members) => {
 document.addEventListener('DOMContentLoaded', (event) => {
     getMembersData();
 });
+

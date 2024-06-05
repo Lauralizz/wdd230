@@ -276,12 +276,8 @@ legend {
 
 /*Directory CSS*/
 
-#membersContainer section{
-    background-color: antiquewhite;
-    max-width: fit-content;
-    max-height: fit-content;
-    padding: 10px;
-    margin: 5px;
+#membersContainer section {
+    margin: 5px 0px;
 }
 
 #membersContainer img {
@@ -289,23 +285,34 @@ legend {
 	max-width: 100%;
 }
 
-#membersContainer h2 {
-    max-width: fit-content;
+#membersContainer p {
+    font-size: small;
+}
+
+#membersContainer h4 {
+    font-size: large;
 }
 
 #grid, #list {
     cursor: pointer;
+    width: 50px;
+    height: 30px;
+    background-color: rgba(40, 175, 176, 0.5);
+    margin: 10px;
 }
 
 .grid {
-	display: flex;
-	display: grid;
-	grid-gap: 5px;
-	align-items: center;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
 }
 
 .grid section {
+    padding: 10px;
 	text-align: center;
+    max-width: 300px;
+    background-color: antiquewhite;
+    align-items: center;                                                                                       
 }
 
 .grid img {
@@ -313,13 +320,17 @@ legend {
 	box-shadow: 0 0 10px #333;
 }
 
+.grid h4 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .grid section > * {
 	margin: 0.1rem;
 }
 
 .list {
-	display: flex;
-	flex-direction: column;
+	display: block;
 }
 
 .list section {
@@ -327,6 +338,11 @@ legend {
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
+    background-color: antiquewhite;
+}
+
+.list section p {
+    grid-column: 2/4;
 }
 
 .list section > * {
@@ -334,12 +350,13 @@ legend {
 }
 
 .list section img {
-	display: none; /* smaller viewports only */
+	display: none;
 }
 
-.list section h3 {
+.list section h4 {
 	font-size: 1rem;
 	font-family: Roboto, Helvetica, sans-serif;
+    
 }
 
 .list section:nth-child(even) {
