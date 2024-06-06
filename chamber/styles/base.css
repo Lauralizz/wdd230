@@ -373,7 +373,7 @@ legend {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: rgba(40, 175, 176, 0.5);;
 }
 
 #directoryh2 {
