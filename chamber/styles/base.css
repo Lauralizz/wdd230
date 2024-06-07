@@ -166,7 +166,15 @@ h3 {
     background-color: rgba(40, 175, 176, 0.5);
     padding: 20px;
     margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+
+#spotlights div {
+    max-width: 300px;
+}
+
 
 /* small view navigation */
 

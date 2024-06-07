@@ -20,6 +20,7 @@ const displayMembers = (members) => {
 
         businessName.textContent = `${member.name}`;
         portrait.setAttribute('src', member.image);
+        portrait.classList.add('responsive-img');
         level.textContent = member.memLevel;
         businessURL.textContent = member.url;
         businessAddress.textContent = `Address: ${member.address}`;
