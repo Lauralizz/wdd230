@@ -47,6 +47,35 @@ nav a:hover {
     color: #F7E08D;
 }
 
+#banner {
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    max-width: fit-content;
+    top: 50%; /* Align to the top */
+    left: 50%; /* Align to the left */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white; /* White text */
+    z-index: 1000; /* High z-index to overlay all content */
+    display: none; /* Initially hidden */
+}
+
+#banner button {
+    background: none;
+    border: none;
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block */
+    font-size: 16px; /* Font size */
+    margin: 10px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: absolute; /* Absolute position */
+    top: 10px; /* Position from top */
+    right: 10px; /* Position from right */
+}
+
 /*hero section*/
 #hero {
     display: grid;
@@ -112,9 +141,15 @@ h3 {
     background-color: rgba(239, 143, 87, 0.7);
 }
 
+#events {
+    background-color: rgba(239, 143, 87, 0.2);
+    padding: 5px;
+    padding-top: 0px;
+}
+
+
 #weather h3{
-    width: 300px;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 #weather {
@@ -180,6 +215,7 @@ li.current-menu-item a {
     z-index: 0;
     border: 1px solid black;
 }
+
 
 .eventTitle {
     z-index: 999;
