@@ -114,6 +114,7 @@ nav a:hover {
     margin: auto;
     text-decoration: none;
     max-width: fit-content;
+    padding: 5px;
 }
 
 a {
